@@ -38,8 +38,9 @@ class JenkinsInterface(object):
             jenkins_url = self.get_jenkins_url()
             headers = {}
             job_params = 'name,url,color,description'
-            url = "{}/api/json?tree=jobs[{params},jobs[{params}]]".format(jenkins_url,
-                                                                          params=job_params)
+            build_params = 'lastBuild[duration,url],lastSuccessfulBuild[duration,timestamp],lastFailedBuild[timestamp]'
+            url = "{url}/api/json?tree=jobs[{params},jobs[{params}],{build_params}]"\
+                    .format(url=jenkins_url,params=job_params, build_params=build_params)
             headers = {}
             if 'username' in self._workflow.settings:
                 username = self._workflow.settings['username']

@@ -5,3 +5,4 @@ jenkins-workflow.iml
 .DS_Store
 Alfred_Workflow*.egg-info
 Jenkins_Alfred_Workflow.egg-info
+venv/

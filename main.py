@@ -26,11 +26,12 @@ def main(wf):
 
         for job in jobs:
             wf.add_item(title=job.name,
-                        subtitle=job.description,
+                        subtitle=job.build_infos,
                         modifier_subtitles={
+                            'fn': job.description,
                             'ctrl': 'Trigger a build, and open'
                         },
-                        arg=job.url,
+                        arg=job.last_build_url if command == 'building' else job.url,
                         valid=True,
                         icon=job.image)
     except NoJobsFound:
