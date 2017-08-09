@@ -38,7 +38,7 @@ class JenkinsInterface(object):
             jenkins_url = self.get_jenkins_url()
             headers = {}
             job_params = 'name,url,color,description'
-            build_params = 'lastBuild[duration,url],lastSuccessfulBuild[duration,timestamp],lastFailedBuild[timestamp]'
+            build_params = 'lastBuild[building,timestamp,duration,url],lastSuccessfulBuild[duration,timestamp],lastFailedBuild[timestamp]'
             url = "{url}/api/json?tree=jobs[{params},jobs[{params}],{build_params}]"\
                     .format(url=jenkins_url,params=job_params, build_params=build_params)
             headers = {}

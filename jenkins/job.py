@@ -62,18 +62,27 @@ class Job(object):
     @property
     def build_infos(self):
         now = int(time()) * 1000 # Since jenkins timestamps are in ms
-        # print self._data.get('lastSuccessfulBuild', {}).get('timestamp')
         last = self._data.get('lastBuild', {})
         last_success = self._data.get('lastSuccessfulBuild', {})
         last_fail = self._data.get('lastFailedBuild', {})
 
+        is_last_building = last.get('building') if last else False
         last_success_duration = last_success.get('duration') if last_success else None
         last_duration = last.get('duration') if last else None
+        last_timestamp = last.get('timestamp', now) if last else now
         last_success_timestamp = last_success.get('timestamp', now) if last_success else now
         last_fail_timestamp = last_fail.get('timestamp', now) if last_fail else now
 
-        return "Last duration: {} - Last success: {} - Last fail: {}".format(
-            self.format_time_diff(last_duration if last_duration else last_success_duration),
+        build_infos = "Last duration: {} - Last success: {} - Last fail: {}".format(
+            self.format_time_diff(last_duration if not is_last_building else last_success_duration),
             self.format_time_diff(now - last_success_timestamp),
             self.format_time_diff(now - last_fail_timestamp)
+        )
+
+        if not is_last_building:
+            return build_infos
+        time_remaining = last_success_duration - (now - last_timestamp)
+        return "Remaining: {} - {}".format(
+            self.format_time_diff(time_remaining) if time_remaining > 0 else 'soon',
+            build_infos
         )
