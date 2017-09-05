@@ -17,6 +17,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -25,6 +27,8 @@
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>2B5E57D5-A9B2-4F97-93D4-C9F47CE86252</key>
@@ -36,6 +40,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>3A5F90F6-D823-4689-923A-B4DAA96772A1</key>
@@ -47,6 +53,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -55,6 +63,8 @@
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>4A5377DD-2096-4300-8B37-613C9D0463A6</key>
@@ -66,6 +76,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -74,6 +86,8 @@
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>54087FA9-94F9-4259-A28F-3A45C4C77397</key>
@@ -85,6 +99,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -93,6 +109,8 @@
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>A2CC64AA-01E2-440B-A486-34699130BAE3</key>
@@ -104,6 +122,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>B496AF63-F9F0-445B-A2C4-FE46C01623C4</key>
@@ -115,6 +135,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>EDEEC501-4268-4179-8D41-A67C5D10356A</key>
@@ -126,6 +148,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -146,12 +170,16 @@
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
-				<integer>38</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1835008</integer>
+				<integer>0</integer>
 				<key>hotstring</key>
-				<string>J</string>
+				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -164,11 +192,15 @@
 			<key>uid</key>
 			<string>B496AF63-F9F0-445B-A2C4-FE46C01623C4</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -187,6 +219,10 @@
 				<string>Loading...</string>
 				<key>script</key>
 				<string>/usr/local/bin/python main.py all "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Search for jenkins jobs</string>
 				<key>title</key>
@@ -201,13 +237,15 @@
 			<key>uid</key>
 			<string>54087FA9-94F9-4259-A28F-3A45C4C77397</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
 				<key>url</key>
 				<string>{query}</string>
 				<key>utf8</key>
@@ -218,11 +256,15 @@
 			<key>uid</key>
 			<string>92AB5674-45CC-4E10-A540-40DE9DDF9862</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -241,6 +283,10 @@
 				<string>Loading...</string>
 				<key>script</key>
 				<string>python main.py failing "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Show the failing builds in jenkins</string>
 				<key>title</key>
@@ -255,7 +301,7 @@
 			<key>uid</key>
 			<string>4A5377DD-2096-4300-8B37-613C9D0463A6</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -267,6 +313,10 @@
 				<key>script</key>
 				<string>curl -X POST {query}/build
 open {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -275,11 +325,15 @@ open {query}</string>
 			<key>uid</key>
 			<string>C3869749-E660-4D39-880E-DDCC244AD1F5</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -298,6 +352,10 @@ open {query}</string>
 				<string>Loading...</string>
 				<key>script</key>
 				<string>python main.py failing "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Show the failing builds in jenkins</string>
 				<key>title</key>
@@ -312,11 +370,15 @@ open {query}</string>
 			<key>uid</key>
 			<string>1600838C-55EF-4086-889F-2A7363F3B9AB</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -335,6 +397,10 @@ open {query}</string>
 				<string>Loading...</string>
 				<key>script</key>
 				<string>python main.py building "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Show the building jobs in jenkins</string>
 				<key>title</key>
@@ -349,7 +415,7 @@ open {query}</string>
 			<key>uid</key>
 			<string>3A5F90F6-D823-4689-923A-B4DAA96772A1</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -360,6 +426,10 @@ open {query}</string>
 				<integer>38</integer>
 				<key>script</key>
 				<string>python main.py set_url "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -368,7 +438,7 @@ open {query}</string>
 			<key>uid</key>
 			<string>B3C2C51D-5CA2-4F05-9FE1-8D85AD152FE9</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -377,6 +447,8 @@ open {query}</string>
 				<integer>0</integer>
 				<key>keyword</key>
 				<string>jenkins_url</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
 				<string>Set the jenkins URL</string>
 				<key>withspace</key>
@@ -387,7 +459,7 @@ open {query}</string>
 			<key>uid</key>
 			<string>EDEEC501-4268-4179-8D41-A67C5D10356A</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -408,7 +480,7 @@ open {query}</string>
 			<key>uid</key>
 			<string>2B5E57D5-A9B2-4F97-93D4-C9F47CE86252</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -419,6 +491,10 @@ open {query}</string>
 				<integer>102</integer>
 				<key>script</key>
 				<string>/usr/bin/python main.py login "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -427,7 +503,7 @@ open {query}</string>
 			<key>uid</key>
 			<string>10322F25-A048-464E-8D1E-A7DC3FA7969F</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -436,6 +512,8 @@ open {query}</string>
 				<integer>2</integer>
 				<key>keyword</key>
 				<string>jenkins_clear_login</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
 				<string>Clear jenkins login details</string>
 				<key>withspace</key>
@@ -446,7 +524,7 @@ open {query}</string>
 			<key>uid</key>
 			<string>A2CC64AA-01E2-440B-A486-34699130BAE3</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -457,6 +535,10 @@ open {query}</string>
 				<integer>102</integer>
 				<key>script</key>
 				<string>/usr/bin/python main.py clear_login</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -465,7 +547,7 @@ open {query}</string>
 			<key>uid</key>
 			<string>F1105578-AAA4-40CF-BE7B-73FB5C018BE5</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -474,66 +556,92 @@ open {query}</string>
 	<dict>
 		<key>10322F25-A048-464E-8D1E-A7DC3FA7969F</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>570</real>
 		</dict>
 		<key>1600838C-55EF-4086-889F-2A7363F3B9AB</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>230</real>
 		</dict>
 		<key>2B5E57D5-A9B2-4F97-93D4-C9F47CE86252</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>570</real>
 		</dict>
 		<key>3A5F90F6-D823-4689-923A-B4DAA96772A1</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>340</real>
 		</dict>
 		<key>4A5377DD-2096-4300-8B37-613C9D0463A6</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>120</real>
 		</dict>
 		<key>54087FA9-94F9-4259-A28F-3A45C4C77397</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>92AB5674-45CC-4E10-A540-40DE9DDF9862</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>A2CC64AA-01E2-440B-A486-34699130BAE3</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>690</real>
 		</dict>
 		<key>B3C2C51D-5CA2-4F05-9FE1-8D85AD152FE9</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>450</real>
 		</dict>
 		<key>B496AF63-F9F0-445B-A2C4-FE46C01623C4</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>C3869749-E660-4D39-880E-DDCC244AD1F5</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>190</real>
 		</dict>
 		<key>EDEEC501-4268-4179-8D41-A67C5D10356A</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>450</real>
 		</dict>
 		<key>F1105578-AAA4-40CF-BE7B-73FB5C018BE5</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>690</real>
 		</dict>

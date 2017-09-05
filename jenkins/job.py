@@ -56,8 +56,10 @@ class Job(object):
 
     @property
     def last_build_url(self):
-        last_build = self._data.get('lastBuild', {}).get('url')
-        return '{}console#footer'.format(last_build)
+        last_build = self._data.get('lastBuild', {})
+        if not last_build:
+            return None
+        return '{}console#footer'.format(last_build.get('url'))
 
     @property
     def build_infos(self):
